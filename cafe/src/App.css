@@ -1,0 +1,392 @@
+/* Global Styles */
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #256600; /* Black background */
+}
+
+/*Home styles*/
+
+.Welcome {
+  padding: 2%;
+  color:#fe4800;
+  font-size: 36px; /* larger font size */
+  text-align: center; /* center aligned */
+  font-weight: bold; /* bold font weight */
+}
+
+.enjoy {
+  padding: 2%;
+  color:#fe4800;
+  font-size: 24px; /* larger font size */
+  text-align: center; /* center aligned */
+}
+
+.HomeCont {
+  width: 91.1%;
+  height: 100%;
+  margin-left:9.20% ;/* adjust the width to your liking */
+   /* add some margin to center the container */
+}
+
+.item{
+  font-size: 35px;
+  color: #256600;
+}
+
+.carousel {
+  background-color: black;
+  width: 100%; /* make the carousel take up the full width of the container */
+  height: 100%; /* set a fixed height for the carousel */
+  overflow: hidden; /* hide any overflow to prevent the images from bleeding out */
+}
+
+.desc{
+  font-size: 30px;
+  color:#fe4800;
+}
+
+.carousel-item img {
+  width: 100px; /* make the image take up the full width of the carousel item */
+  height: 500px; /* make the image take up the full height of the carousel item */
+  object-fit: cover; /* make the image cover the entire carousel item */
+  border-radius: 10px; /* add some border radius to the image */
+}
+
+
+/* Navbar Styles */
+.vert-navbar.navbar-brand {
+
+  width: 100%;
+  text-align: top;
+  padding: 10px;
+  background-color: #f0f0f0; /* optional */
+  border-bottom: 1px solid #ddd; /* optional */
+}
+
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #37ed00; /* optional */
+  border-bottom: 1px solid da5e00; /* optional */
+}
+
+.logo {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px; /* add this */
+}
+.vert-navbar {
+  position: relative; /* add this */
+  width: 200px; /* adjust the width to your liking */
+  height: 100vh; /* make the navbar full height */
+  position: fixed; /* fix the navbar to the left side */
+  
+  padding: 20px;
+  background-color: #37ed00; /* optional */
+  border-right: 1px solid #da5e00; /* optional */
+  padding-right: 100px;
+  
+}
+
+
+.vert-navbar .nav {
+  flex-direction: column;
+
+}
+
+.vert-navbar .nav-link {
+  color: #da5e00;
+  font-size: 25px;
+  padding: 30px 30px;
+  border-bottom: 1px solid #da5e00;
+  background-color: #37ed00;
+  text-align: center; /* Add this to center the text horizontally */
+  display: flex; /* Add this to center the text vertically and horizontally */ /* Add this to center the text horizontally */
+  align-items: center; /* Add this to center the text vertically */
+}
+
+
+
+.vert-navbar .nav-link:hover {
+  background-color: #00b10f;
+}
+/* Menu Styles */
+.modal-lg {
+  max-width: 800px; /* adjust the width to your liking */
+  margin: 30px auto; /* adjust the margin to your liking */
+}
+
+.modal-lg .modal-body {
+  height: 750px; /* adjust the height to your liking */
+  overflow-y: auto; /* add a scrollbar if the content is too long */
+}
+.modal-lg .modal-body img {
+  width: 100%; /* make the image full width */
+  height: auto; /* maintain the image's aspect ratio */
+  margin: 0 auto; /* center the image horizontally */
+  display: block; /* make the image a block element */
+}
+
+
+.Menus {
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #256600;
+  gap: 40px;
+}
+
+.card {
+  background-color: #fe4800; /* orange color */
+  padding: 20px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff; /* white text */
+}
+
+.card-text {
+  font-size: 14px;
+  color: #ffffff; /* white text */
+}
+
+.modal-body {
+  background-color: #00b10f;
+  padding: 20px;
+  
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.modal-header {
+  background-color: #fe4800; /* orange color */
+  padding: 10px;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff; /* white text */
+}
+/* Orders, Feedback, and Login Styles */
+/* Feedback container */
+
+.feedback-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Feedback header */
+
+.feedback-header {
+  margin-bottom: 20px;
+}
+
+.feedback-header h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feedback-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Feedback form */
+
+.feedback-form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.feedback-form-control {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.feedback-form-control:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Star rating */
+
+.star-rating {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.star-rating span {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.star-rating label:hover {
+  color: #ccc;
+}
+
+.star-rating input[type="radio"]:checked + label {
+  color: #ffd700;
+}
+
+/* Feedback button */
+
+.feedback-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Centering */
+
+.feedback-centered {
+  text-align: center;
+}
+/* Login container */
+
+.login-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login header */
+
+.login-header {
+  margin-bottom: 20px;
+}
+
+.login-header h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Login form */
+
+.login-form-group {
+  margin-bottom: 20px;
+}
+
+.login-form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.login-form-control {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.login-form-control:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login button */
+
+.login-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Centering */
+
+.login-centered {
+  text-align: center;
+}
